@@ -52,7 +52,7 @@ This component fetches a list of referenced records by a reverse lookup of the c
 For instance, here is how to show the title of the books written by a particular author in a show view.
 
 ```jsx
-import { Show, SimpleShowLayout, TextField, ReferenceManyField, Datagrid } from 'react-admin';
+import { Show, SimpleShowLayout, TextField, ReferenceManyField, Datagrid, DateField } from 'react-admin';
 
 export const AuthorShow = () => (
   <Show>
@@ -128,7 +128,7 @@ This example leverages [`<SingleFieldList>`](./SingleFieldList.md) to display an
 For instance, use a `<Datagrid>` to render the related records in a table:
 
 ```jsx
-import { Show, SimpleShowLayout, TextField, ReferenceManyField, Datagrid } from 'react-admin';
+import { Show, SimpleShowLayout, TextField, ReferenceManyField, Datagrid, DateField } from 'react-admin';
 
 export const AuthorShow = () => (
   <Show>
@@ -150,7 +150,7 @@ export const AuthorShow = () => (
 Or [`<WithListContext>`](./WithListContext.md) to render the related records in a custom way:
 
 ```jsx
-import { Show, SimpleShowLayout, TextField, ReferenceManyField, WithListContext } from 'react-admin';
+import { Show, SimpleShowLayout, TextField, ReferenceManyField, WithListContext, DateField } from 'react-admin';
 
 export const AuthorShow = () => (
   <Show>
